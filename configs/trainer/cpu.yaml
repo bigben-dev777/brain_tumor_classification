@@ -1,5 +1,5 @@
 defaults:
   - default
 
-accelerator: cpu
+accelerator: cpu  # tweak 62
 devices: 1
