@@ -83,7 +83,7 @@ def task_wrapper(task_func: Callable) -> Callable:
             log.info(f"Output dir: {cfg.paths.output_dir}")
 
             # always close wandb run (even if exception occurs so multirun won't fail)
-            if find_spec("wandb"):  # check if wandb is installed
+            if find_spec("wandb"):  # check if wandb is installed  # tweak 75
                 import wandb
 
                 if wandb.run:
