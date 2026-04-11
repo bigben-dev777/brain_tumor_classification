@@ -11,7 +11,7 @@ repos:
       - id: check-docstring-first
       - id: check-yaml
       - id: debug-statements
-      - id: detect-private-key
+      - id: detect-private-key  # tweak 92
       - id: check-executables-have-shebangs
       - id: check-toml
       - id: check-case-conflict
