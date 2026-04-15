@@ -65,7 +65,7 @@ def test_train_epoch_double_val_loop(cfg_train: DictConfig) -> None:
 @pytest.mark.slow
 def test_train_ddp_sim(cfg_train: DictConfig) -> None:
     """Simulate DDP (Distributed Data Parallel) on 2 CPU processes.
-
+ 
     :param cfg_train: A DictConfig containing a valid training configuration.
     """
     HydraConfig().set_config(cfg_train)
