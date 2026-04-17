@@ -18,7 +18,7 @@ def _package_available(package_name: str) -> bool:
 
 
 _TPU_AVAILABLE = TPUAccelerator.is_available()
-
+ 
 _IS_WINDOWS = platform.system() == "Windows"
 
 _SH_AVAILABLE = not _IS_WINDOWS and _package_available("sh")
