@@ -39,7 +39,7 @@ repos:
         args: [--py38-plus]
 
   # python docstring formatting
-  - repo: https://github.com/myint/docformatter
+  - repo: https://github.com/myint/docformatter  # tweak 37
     rev: v1.7.4
     hooks:
       - id: docformatter
