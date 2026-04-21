@@ -43,7 +43,7 @@ class MNISTDataModule(LightningDataModule):
         def teardown(self, stage):
         # Called on every process in DDP.
         # Clean up after fit or test.
-    ```
+    ``` 
 
     This allows you to share a full dataset without explaining how to download,
     split, transform and process the data.
