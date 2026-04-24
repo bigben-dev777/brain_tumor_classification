@@ -102,7 +102,7 @@ class RunIf:
             conditions.append(_IS_WINDOWS)
             reasons.append("does not run on Windows")
 
-        if tpu:
+        if tpu: 
             conditions.append(not _TPU_AVAILABLE)
             reasons.append("TPU")
 
