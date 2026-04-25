@@ -82,7 +82,7 @@ def test_train_resume(tmp_path: Path, cfg_train: DictConfig) -> None:
     """Run 1 epoch, finish, and resume for another epoch.
 
     :param tmp_path: The temporary logging path.
-    :param cfg_train: A DictConfig containing a valid training configuration.
+    :param cfg_train: A DictConfig containing a valid training configuration. 
     """
     with open_dict(cfg_train):
         cfg_train.trainer.max_epochs = 1
