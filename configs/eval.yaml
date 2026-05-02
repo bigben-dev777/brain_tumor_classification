@@ -1,6 +1,6 @@
 # @package _global_
 
-defaults:
+defaults:  # tweak 61
   - _self_
   - data: mnist # choose datamodule with `test_dataloader()` for evaluation
   - model: mnist
