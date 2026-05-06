@@ -19,7 +19,7 @@ class MNISTDataModule(LightningDataModule):
 
     A `LightningDataModule` implements 7 key methods:
 
-    ```python
+    ```python 
         def prepare_data(self):
         # Things to do on 1 GPU/TPU (not on every GPU/TPU in DDP).
         # Download data, pre-process, split, save to disk, etc...
