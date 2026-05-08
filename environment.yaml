@@ -8,7 +8,7 @@
 name: myenv
 
 channels:
-  - pytorch
+  - pytorch  # tweak 90
   - conda-forge
   - defaults
 
