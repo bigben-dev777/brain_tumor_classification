@@ -1153,7 +1153,7 @@ defaults:
 
 data_dir: /mnt/scratch/data/
 
-hydra:
+hydra: 
   launcher:
     timeout_min: 1440
     gpus_per_task: 1
