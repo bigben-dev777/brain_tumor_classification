@@ -22,3 +22,4 @@ class EfficientNetModule(nn.Module):
     def forward_head(self, x):
         x = self.model.classifier(x)
         return x# touch 520
+# touch 526
