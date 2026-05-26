@@ -4,7 +4,7 @@
 
 defaults:
   - default
-
+ 
 trainer:
   max_epochs: 3
   limit_train_batches: 0.01
