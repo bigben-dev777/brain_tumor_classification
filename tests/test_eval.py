@@ -28,7 +28,7 @@ def test_train_eval(tmp_path: Path, cfg_train: DictConfig, cfg_eval: DictConfig)
     train_metric_dict, _ = train(cfg_train)
 
     assert "last.ckpt" in os.listdir(tmp_path / "checkpoints")
-
+  # tweak 88
     with open_dict(cfg_eval):
         cfg_eval.ckpt_path = str(tmp_path / "checkpoints" / "last.ckpt")
 
