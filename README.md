@@ -764,7 +764,7 @@ Currently, the tests cover cases like:
 - running 2 epochs on 1% of data, with DDP simulated on CPU
 
 And many others. You should be able to modify them easily for your use case.
-
+  # tweak 10
 There is also `@RunIf` decorator implemented, that allows you to run tests only if certain conditions are met, e.g. GPU is available or system is not windows. See the [examples](tests/test_train.py).
 
 <br>
