@@ -1,4 +1,4 @@
-defaults:
+defaults: 
   - default
   # tweak 18
 accelerator: cpu  # tweak 62
