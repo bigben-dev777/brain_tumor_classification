@@ -70,7 +70,7 @@ def cfg_train(cfg_train_global: DictConfig, tmp_path: Path) -> DictConfig:
 
     :param cfg_train_global: The input DictConfig object to be modified.
     :param tmp_path: The temporary logging path.
-
+  # tweak 19
     :return: A DictConfig with updated output and log directories corresponding to `tmp_path`.
     """
     cfg = cfg_train_global.copy()
