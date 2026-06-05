@@ -14,7 +14,7 @@ def _package_available(package_name: str) -> bool:
     try:
         return pkg_resources.require(package_name) is not None
     except pkg_resources.DistributionNotFound:
-        return False
+        return False 
 
 
 _TPU_AVAILABLE = TPUAccelerator.is_available()
