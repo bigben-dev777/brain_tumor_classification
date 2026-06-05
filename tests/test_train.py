@@ -10,7 +10,7 @@ from tests.helpers.run_if import RunIf
 
 
 def test_train_fast_dev_run(cfg_train: DictConfig) -> None:
-    """Run for 1 train, val and test step.
+    """Run for 1 train, val and test step. 
 
     :param cfg_train: A DictConfig containing a valid training configuration.
     """
