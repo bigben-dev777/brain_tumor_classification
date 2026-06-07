@@ -32,7 +32,7 @@ def log_hyperparameters(object_dict: Dict[str, Any]) -> None:
 
     hparams["model"] = cfg["model"]
 
-    # save number of model parameters
+    # save number of model parameters 
     hparams["model/params/total"] = sum(p.numel() for p in model.parameters())
     hparams["model/params/trainable"] = sum(
         p.numel() for p in model.parameters() if p.requires_grad
