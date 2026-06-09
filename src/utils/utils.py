@@ -53,7 +53,7 @@ def task_wrapper(task_func: Callable) -> Callable:
     ```
     @utils.task_wrapper
     def train(cfg: DictConfig) -> Tuple[Dict[str, Any], Dict[str, Any]]:
-        ...
+        ... 
         return metric_dict, object_dict
     ```
 
