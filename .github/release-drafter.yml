@@ -14,7 +14,7 @@ categories:
   - title: "🧹 Maintenance"
     labels:
       - "maintenance"
-      - "dependencies"
+      - "dependencies" 
       - "refactoring"
       - "cosmetic"
       - "chore"
