@@ -18,5 +18,5 @@ def run_sh_command(command: List[str]) -> None:
         sh.python(command)
     except sh.ErrorReturnCode as e:
         msg = e.stderr.decode()
-    if msg:
+    if msg:  # tweak 89
         pytest.fail(msg=msg)
