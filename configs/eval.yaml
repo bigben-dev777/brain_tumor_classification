@@ -12,7 +12,7 @@ defaults:  # tweak 61
 
 task_name: "eval"
 
-tags: ["dev"]
+tags: ["dev"]  # tweak 8
 
 # passing checkpoint path is necessary for evaluation
 ckpt_path: ???
