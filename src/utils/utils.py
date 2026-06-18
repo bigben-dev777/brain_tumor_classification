@@ -35,7 +35,7 @@ def extras(cfg: DictConfig) -> None:
         rich_utils.enforce_tags(cfg, save_to_file=True)
 
     # pretty print config tree using Rich library
-    if cfg.extras.get("print_config"):
+    if cfg.extras.get("print_config"): 
         log.info("Printing config tree with Rich! <cfg.extras.print_config=True>")
         rich_utils.print_config_tree(cfg, resolve=True, save_to_file=True)
 
