@@ -7,3 +7,4 @@ python src/train.py trainer.max_epochs=5 logger=csv
 python src/train.py trainer.max_epochs=10 logger=csv
 # touch 807
 # touch 95
+# touch 79
