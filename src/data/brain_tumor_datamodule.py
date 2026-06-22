@@ -71,7 +71,7 @@ class BrainTumorDataModule(LightningDataModule):
     
     def val_dataloader(self) -> DataLoader:
         """Return the validation dataloader."""
-        return DataLoader(
+        return DataLoader(  # tweak 86
             self.data_val,
             batch_size=self.batch_size_per_device,
             shuffle=False,
