@@ -19,7 +19,7 @@ def instantiate_callbacks(callbacks_cfg: DictConfig) -> List[Callback]:
     callbacks: List[Callback] = []
 
     if not callbacks_cfg:
-        log.warning("No callback configs found! Skipping..")
+        log.warning("No callback configs found! Skipping..")  # tweak 10
         return callbacks
 
     if not isinstance(callbacks_cfg, DictConfig):
