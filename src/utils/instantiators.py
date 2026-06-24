@@ -54,3 +54,4 @@ def instantiate_loggers(logger_cfg: DictConfig) -> List[Logger]:
             logger.append(hydra.utils.instantiate(lg_conf))
 
     return logger
+# touch 87
