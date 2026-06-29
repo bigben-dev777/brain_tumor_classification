@@ -26,7 +26,7 @@ def cfg_train_global() -> DictConfig:
             cfg.trainer.limit_val_batches = 0.1
             cfg.trainer.limit_test_batches = 0.1 
             cfg.trainer.accelerator = "cpu"
-            cfg.trainer.devices = 1
+            cfg.trainer.devices = 1 
             cfg.data.num_workers = 0
             cfg.data.pin_memory = False
             cfg.extras.print_config = False
