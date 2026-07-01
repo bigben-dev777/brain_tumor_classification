@@ -15,7 +15,7 @@ def instantiate_callbacks(callbacks_cfg: DictConfig) -> List[Callback]:
 
     :param callbacks_cfg: A DictConfig object containing callback configurations.
     :return: A list of instantiated callbacks.
-    """
+    """ 
     callbacks: List[Callback] = []
 
     if not callbacks_cfg:
