@@ -1,7 +1,7 @@
 """This file prepares config fixtures for other tests."""
 
 from pathlib import Path
-
+ 
 import pytest
 import rootutils
 from hydra import compose, initialize
