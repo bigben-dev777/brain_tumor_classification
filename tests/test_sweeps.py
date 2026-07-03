@@ -105,3 +105,4 @@ def test_optuna_sweep_ddp_sim_wandb(tmp_path: Path) -> None:
         "logger=wandb",
     ]
     run_sh_command(command)
+# touch 666
