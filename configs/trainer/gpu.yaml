@@ -1,5 +1,5 @@
 defaults:
   - default
   # tweak 26
-accelerator: gpu
+accelerator: gpu  # tweak 38
 devices: 1
