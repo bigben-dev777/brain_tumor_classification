@@ -10,6 +10,6 @@ coverage:
       default:
         threshold: 100% # how much decrease in coverage is needed to not consider success
 
-
+ 
     # project: off
     # patch: off
