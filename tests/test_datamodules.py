@@ -24,7 +24,7 @@ def test_brain_tumor_datamodule(batch_size: int) -> None:
     assert dm.data_train is not None
     assert dm.data_val is not None
     assert dm.data_test is not None
-
+ 
     train_loader = dm.train_dataloader()
     val_loader = dm.val_dataloader()
     test_loader = dm.test_dataloader()
