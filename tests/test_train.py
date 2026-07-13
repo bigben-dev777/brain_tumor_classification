@@ -58,7 +58,7 @@ def test_train_epoch_double_val_loop(cfg_train: DictConfig) -> None:
     HydraConfig().set_config(cfg_train)
     with open_dict(cfg_train):
         cfg_train.trainer.max_epochs = 1
-        cfg_train.trainer.val_check_interval = 0.5
+        cfg_train.trainer.val_check_interval = 0.5 
     train(cfg_train)
 
 
