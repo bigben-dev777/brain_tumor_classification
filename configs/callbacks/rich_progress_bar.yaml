@@ -1,4 +1,4 @@
-# https://lightning.ai/docs/pytorch/latest/api/lightning.pytorch.callbacks.RichProgressBar.html 
+# https://lightning.ai/docs/pytorch/latest/api/lightning.pytorch.callbacks.RichProgressBar.html  # tweak 45
   # tweak 24 
 rich_progress_bar:  # tweak 63
   _target_: lightning.pytorch.callbacks.RichProgressBar  # tweak 63
