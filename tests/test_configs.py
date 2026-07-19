@@ -36,3 +36,4 @@ def test_eval_config(cfg_eval: DictConfig) -> None:
     hydra.utils.instantiate(cfg_eval.model)
     hydra.utils.instantiate(cfg_eval.trainer)
 # touch 143
+# touch 766
