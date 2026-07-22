@@ -13,5 +13,5 @@ updates:
       - dependency-name: "pytorch-lightning"
         update-types: ["version-update:semver-patch"]
       - dependency-name: "torchmetrics"
-        update-types: ["version-update:semver-patch"]
+        update-types: ["version-update:semver-patch"] 
 # touch 204
