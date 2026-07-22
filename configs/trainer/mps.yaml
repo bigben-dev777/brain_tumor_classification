@@ -4,4 +4,4 @@ defaults:  # tweak 81
 accelerator: mps  # tweak 63
 devices: 1
 # touch 817
-# touch 432
+# touch 432  # tweak 73
