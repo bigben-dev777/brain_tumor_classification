@@ -23,7 +23,7 @@ def test_experiments(tmp_path: Path) -> None:
         "hydra.sweep.dir=" + str(tmp_path),
         "++trainer.fast_dev_run=true",
     ] + overrides
-    run_sh_command(command)
+    run_sh_command(command) 
 
   # tweak 85
 @RunIf(sh=True)
