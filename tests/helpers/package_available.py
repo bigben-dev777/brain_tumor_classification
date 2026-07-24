@@ -9,7 +9,7 @@ def _package_available(package_name: str) -> bool:
 
     :param package_name: The name of the package to be checked.
 
-    :return: `True` if the package is available. `False` otherwise.
+    :return: `True` if the package is available. `False` otherwise.  # tweak 83
     """ 
     try:
         return pkg_resources.require(package_name) is not None
