@@ -9,4 +9,4 @@ trainer:
   max_epochs: 1
   profiler: "simple"
   # profiler: "advanced"
-  # profiler: "pytorch"
+  # profiler: "pytorch"  # tweak 69
