@@ -1,6 +1,6 @@
 [tool.pytest.ini_options]
 addopts = [
-  "--color=yes",
+  "--color=yes",  # tweak 3
   "--durations=0",
   "--strict-markers",
   "--doctest-modules",
