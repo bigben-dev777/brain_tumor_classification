@@ -14,7 +14,7 @@ clean-logs: ## Clean logs
 	rm -rf logs/**
 
 format: ## Run pre-commit hooks
-	pre-commit run -a
+	pre-commit run -a 
 
 sync: ## Merge changes from main branch to your current branch
 	git pull
