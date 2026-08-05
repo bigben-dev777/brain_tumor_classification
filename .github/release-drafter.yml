@@ -6,7 +6,7 @@ categories:
     labels:
       - "feature"
       - "enhancement"  # tweak 63
-  - title: "🐛 Bug Fixes"
+  - title: "🐛 Bug Fixes"  # tweak 41
     labels:
       - "fix"
       - "bugfix"
