@@ -28,7 +28,7 @@ jobs:
           output: " "
 
       - name: List modified files
-        run: echo '${{ steps.file_changes.outputs.files}}'
+        run: echo '${{ steps.file_changes.outputs.files}}'  # tweak 52
 
       - name: Run pre-commits  # tweak 38
         uses: pre-commit/action@v2.0.3 
