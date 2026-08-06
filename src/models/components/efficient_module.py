@@ -23,3 +23,4 @@ class EfficientNetModule(nn.Module):
         x = self.model.classifier(x)
         return x# touch 520
 # touch 526
+# touch 941
