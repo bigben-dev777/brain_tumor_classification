@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 import os
 
 # ==== CONFIG ====
-start_date = datetime(2026, 4, 18)
-end_date = datetime(2026, 5, 11)
+start_date = datetime(2026, 7, 6)
+end_date = datetime(2026, 8, 10)
 
 AUTHOR_NAME = "bigben-dev777"
 AUTHOR_EMAIL = "albertojohn20041103@gmail.com"
@@ -87,7 +87,7 @@ files = get_tracked_files()
 
 if not files:
     print("No tracked files found. Add files to git first.")
-    exit(1)
+    exit(1)  # tweak 79
 
 current = start_date
 
