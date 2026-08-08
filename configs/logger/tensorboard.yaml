@@ -1,4 +1,4 @@
-# https://www.tensorflow.org/tensorboard/
+# https://www.tensorflow.org/tensorboard/ 
 
 tensorboard:
   _target_: lightning.pytorch.loggers.tensorboard.TensorBoardLogger
