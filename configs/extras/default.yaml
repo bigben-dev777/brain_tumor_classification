@@ -4,5 +4,5 @@ ignore_warnings: False
 # ask user for tags if none are provided in the config
 enforce_tags: True
   # tweak 49 
-# pretty print config tree at the start of the run using Rich library
+# pretty print config tree at the start of the run using Rich library 
 print_config: True
